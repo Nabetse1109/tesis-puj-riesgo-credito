@@ -1,0 +1,63 @@
+# ============================================================
+# .gitignore - Proyecto Tesis MCD UAO
+# ============================================================
+
+# Datos sensibles (NUNCA subir)
+data/*.xlsx
+data/*.csv
+data/*.parquet
+data/raw/
+1_Creditos_EstudiantesREV.xlsx
+2_Cartera_depuradaREV.xlsx
+
+# Backups y archivos temporales del proyecto
+*.PRE_*.ipynb
+*.PRE_*.docx
+*.ORIGINAL_BACKUP.ipynb
+*.tmp
+*.bak
+_*.py
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv
+.env
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Credenciales (jamás subir)
+.env
+*.key
+*.pem
+credentials.json
+secrets.json
